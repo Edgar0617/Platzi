@@ -1,13 +1,15 @@
 PROGRAMACIÓN ORIENTADA A OBJETOS
 
-La Programación Orientada a Objetos viene de una filosofía o forma de pensar que es la Orientación a Objetos y esto surge a partir de los problemas que necesitamos plasmar en código.
+La Programación Orientada a Objetos viene de una filosofía o forma de pensar que es la Orientación a Objetos y esto surge
+a partir de los problemas que necesitamos plasmar en código.
 
 Es analizar un problema en forma de objetos para después llevarlo a código, eso es la Orientación a Objetos.
 
-Un paradigma es una teoría que suministra la base y modelo para resolver problemas. El paradigma de Programación Orientada a Objetos se compone de 4 elementos:
+Un paradigma es una teoría que suministra la base y modelo para resolver problemas. 
+El paradigma de Programación Orientada a Objetos se compone de 4 elementos:
 
 Clases
-Propiedades
+Propiedades o atributos
 Métodos
 Objetos
 
@@ -22,12 +24,49 @@ DIAGRAMAS DE MODELADO
 
 OMT: Object Modeling Techniques. Es una metodología para el análisis orientado a objetos.
 
-UML: Unified Modeling Language o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación.
-En la parte superior se colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer caracter con el que empiezan es un símbolo. Este denotará la visibilidad del atributo o método, esto es un término que tiene que ver con Encapsulamiento y veremos más adelante a detalle.
+UML: Unified Modeling Language o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. 
+Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación.
+En la parte superior se colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer
+caracter con el que empiezan es un símbolo. Este denotará la visibilidad del atributo o método, esto es un término
+que tiene que ver con Encapsulamiento.
 
 Estos son los niveles de visibilidad que puedes tener:
+
 - private
 + public
 # protected
 ~ default
 
+8. OBJETOS
+
+Cuando tengamos un problema, lo primero que tenemos que hacer es identificar obejtos.
+Los Objetos son aquellos que tienen propiedades y comportamientos, también serán sustantivos.
+
+Pueden ser Físicos o Conceptuales.
+Las Propiedades (características de un objeto) también pueden llamarse atributos y estos también serán sustantivos.
+Algunos atributos o propiedades son nombre, tamaño, forma, estado, etc. Son todas las características del objeto.
+
+Los Comportamientos serán todas las operaciones que el objeto puede hacer, suelen ser verbos o sustantivos y verbo. 
+Algunos ejemplos pueden ser que el usuario pueda hacer login y logout.
+
+9. ABSTRACCIÓN Y CLASES 
+
+Una Clase es el "Modelo" por el cual nuestros objetos se van a construir y nos van a permitir generar más objetos.
+Analizamos Objetos para crear Clases. Las Clases son los modelos sobres los cuales construiremos nuestros objetos.
+Abstracción es cuando separamos los datos de un objeto para generar un molde.
+
+10. MODULARIDAD 
+
+La modularidad va muy relacionada con las clases y es un principio de la Programación Orientada a Objetos y va de la 
+mano con el Diseño Modular que significa dividir un sistema en partes pequeñas y éstas serán nuestros módulos pudiendo 
+funcionar de manera independiente.
+
+La modularidad de nuestro código nos va a permitir:
+
+-Reutilizar
+-Evitar colapsos
+-Hacer nuestro código más mantenible
+-Legibilidad
+-Resolución rápida de problemas
+
+Una buena práctica es separando las clases en archivos diferentes.
