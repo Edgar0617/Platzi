@@ -16,4 +16,18 @@ Y 4 Pilares:
 Encapsulamiento
 Abstracción
 Herencia
-Polimorfism
+Polimorfismo
+
+DIAGRAMAS DE MODELADO
+
+OMT: Object Modeling Techniques. Es una metodología para el análisis orientado a objetos.
+
+UML: Unified Modeling Language o Lenguaje de Modelado Unificado. Tomó las bases y técnicas de OMT unificándolas. Tenemos más opciones de diagramas como lo son Clases, Casos de Uso, Objetos, Actividades, Iteración, Estados, Implementación.
+En la parte superior se colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer caracter con el que empiezan es un símbolo. Este denotará la visibilidad del atributo o método, esto es un término que tiene que ver con Encapsulamiento y veremos más adelante a detalle.
+
+Estos son los niveles de visibilidad que puedes tener:
+- private
++ public
+# protected
+~ default
+
