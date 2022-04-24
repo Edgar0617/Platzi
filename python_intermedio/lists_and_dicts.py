@@ -16,13 +16,14 @@ def main():
         "floating_nums": [1.1, 2.4, 6.0, 3.1]
     }
 
+
     for key,value in super_dict.items():
-        print(key, "-", value)
+        print(key, ".", value)
     
     for i in super_list:
-       print(i["firstname"] , "-" , i["lastname"])
+        print(i["firstname"], "-", i["lastname"])
     
-
+    print(my_list,my_dict)
 
 if __name__ == '__main__':
     main()
