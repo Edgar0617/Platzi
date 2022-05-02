@@ -1,0 +1,17 @@
+3. CÓMO ORGANIZAR LAS CARPETAS DE TUS PROYECTOS
+Un módulo es cualquier archivo de python, generalemnte contiene código que puedes reutilizar. 
+Un paquete es un conjunto de módulos. Siempre posee el archivo __init__.py.
+
+4. ¿QUÉ SON LOS TIPADOS?
+Los tipados es una clasificación de los lenguajes de programación, tenemos cuatro tipos:
+
+Estático
+Dinámico
+Débil
+Fuerte
+El tipado del lenguaje depende de cómo trata a los tipos de datos.
+
+El tipado estático es el que levanta un error en el tiempo de compilación.
+El tipado dinámico levantan el error en tiempo de ejecución.
+El tipado débil es el que hace un cambio en un tipo de dato para poder operar con el.
+Python es un lenguaje de tipado 👾 Dinámico y 💪 Fuerte.
